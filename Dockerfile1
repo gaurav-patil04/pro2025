@@ -1,0 +1,7 @@
+from nginx
+
+run apt-get update -y
+run apt-get install wget unzip -y
+run wget https://www.free-css.com/assets/files/free-css-templates/download/page293/vertex.zip
+run unzip vertex.zip
+run cp -rvf 2124_vertex/* usr/share/nginx/html/
